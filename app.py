@@ -52,5 +52,14 @@ def complete(id):
     except:
         return 'Error updating task.'
 
+@app.route('/edit/<int:id>', methods=['GET', 'POST'])
+def edit(id):
+    task = Task.query.get_or_404(id)
+    if request.method == 'POST':
+        task.content = request.form['content']
+        db.session.commit()
+        return redirect('/')
+    return render_template('edit.html', task=task)
+
 if __name__ == "__main__":
     app.run(debug=True)
