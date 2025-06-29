@@ -1,0 +1,15 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.todo-card {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
