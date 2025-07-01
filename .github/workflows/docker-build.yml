@@ -26,4 +26,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: your-dockerhub-username/flask-todo-app:latest
+        tags: rishikanomula/flask-todo-app:latest
