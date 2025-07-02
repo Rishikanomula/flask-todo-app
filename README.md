@@ -1,10 +1,10 @@
-📝 To-Do App with Flask, Docker, and GitHub Actions CI/CD:
+# 📝 To-Do App with Flask, Docker, and GitHub Actions CI/CD:
 
 •A simple and clean task manager built using Flask with features like user authentication, task creation/editing, dark mode, and due dates.
 
 •This project is containerized using Docker and uses GitHub Actions for automated CI/CD.
 
-🚀 Features:
+## 🚀 Features:
 •User Registration & Login (Flask-Login)
 
 •Create, Edit, Complete & Delete Tasks
@@ -17,7 +17,7 @@
 
 •GitHub Actions for CI/CD (Docker image built and pushed on every push to main)
 
-🛠 Tech Stack:
+## 🛠 Tech Stack:
 •Backend: Python + Flask
 
 •Frontend: HTML, CSS (Bootstrap)
@@ -28,7 +28,7 @@
 
 •DevOps: Docker, GitHub Actions
 
-📦 Setup Instructions:
+## 📦 Setup Instructions:
 1. Clone the Repository
 
     git clone https://github.com/yourusername/flask-todo-app.git
@@ -53,7 +53,7 @@ next
 
 •Visit: http://127.0.0.1:5000
 
-🐳 Docker Usage:
+## 🐳 Docker Usage:
 
 •Build Docker Image:
 
@@ -63,7 +63,7 @@ next
 
     docker run -p 5000:5000 flask-todo-app
 
-🤖 CI/CD with GitHub Actions:
+## 🤖 CI/CD with GitHub Actions:
 
 •On every push to main, GitHub Actions:
 
@@ -81,7 +81,7 @@ next
 
 • Workflow file is in .github/workflows/deploy.yml
 
-🌐 Deployment (Optional)
+## 🌐 Deployment (Optional)
 
 •You can deploy your Docker container on:
 
@@ -93,7 +93,7 @@ next
 
 •AWS / EC2 / DigitalOcean (manual)
 
-📁 File Structure
+## 📁 File Structure
 
 flask-todo-app/
 
@@ -113,7 +113,7 @@ flask-todo-app/
 
 └── README.md
 
-✍️ Author:
+## ✍️ Author:
 
 • Nomula Rishika
 
